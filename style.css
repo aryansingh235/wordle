@@ -1,0 +1,46 @@
+.nav {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 2px rgb(227, 223, 223);
+}
+
+.navtext {
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.letter-row{
+    display: flex;
+}
+
+.letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.filled-box {
+    border: 2px solid black;
+}
+
